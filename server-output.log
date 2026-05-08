@@ -1,0 +1,9 @@
+
+SHERIFF OIL website is live:
+  http://localhost:4173/
+  http://127.0.0.1:4173/
+
+Admin dashboard:
+  http://localhost:4173/admin/
+
+Press Ctrl + C to stop the server.

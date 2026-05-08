@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SHERIFF OIL | Premium Fuel Station in Zubqë</title>
+  <meta name="description" content="SHERIFF OIL offers Diesel, Petrol, AdBlue, market, cafeteria, and 24/7 service in Zubqë 40650.">
+  <meta name="theme-color" content="#d71920">
+  <link rel="icon" href="assets/sherif-favicon-wordmark.png?v=wordmark-20260504" type="image/png">
+  <link rel="apple-touch-icon" href="assets/sherif-apple-touch-icon.png?v=wordmark-20260504">
+  <link rel="manifest" href="site.webmanifest">
+  <meta property="og:site_name" content="SHERIFF OIL">
+  <meta property="og:image" content="https://stellar-zabaione-b5d347.netlify.app/assets/sherif-favicon-wordmark.png">
+  <meta property="og:image:secure_url" content="https://stellar-zabaione-b5d347.netlify.app/assets/sherif-favicon-wordmark.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="512">
+  <meta property="og:image:height" content="512">
+  <meta property="og:image:alt" content="SHERIFF OIL logo">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:image" content="https://stellar-zabaione-b5d347.netlify.app/assets/sherif-favicon-wordmark.png">
+  <meta property="og:title" content="SHERIFF OIL">
+  <meta property="og:description" content="Fuel your journey with quality and trust.">
+  <meta property="og:type" content="website">
+  <script>document.documentElement.classList.add("js");</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=placeholder-fix-20260430">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "GasStation",
+      "name": "SHERIFF OIL",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Zubqë 40650"
+      },
+      "telephone": "044 517 400",
+      "email": "rigondragusha6@gmail.com",
+      "openingHours": "Mo-Su 00:00-23:59"
+    }
+  </script>
+  <script src="data/site-data.js?v=placeholder-fix-20260430"></script>
+  <script src="script.js?v=placeholder-fix-20260430" defer></script>
+</head>
+<body data-page="home">
+  <div class="site-loader" role="status" aria-live="polite">
+    <img data-logo src="assets/sherif-logo.png" alt="SHERIFF OIL logo">
+    <span data-i18n="common.loading">Duke hapur SHERIFF OIL</span>
+  </div>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand page-link" href="index.html" aria-label="SHERIFF OIL">
+        <img data-logo src="assets/sherif-logo.png" alt="SHERIFF OIL logo">
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-navigation" aria-label="Open navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav-panel" id="site-navigation">
+        <nav class="nav-links" data-nav-links aria-label="Primary navigation"></nav>
+        <div class="language-switcher" aria-label="Language">
+          <button class="language-button" type="button" data-language="sq">SQ</button>
+          <button class="language-button" type="button" data-language="en">EN</button>
+          <button class="language-button" type="button" data-language="sr">SR</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="fuel-strip" aria-label="Current fuel prices">
+      <div class="container fuel-strip-inner">
+        <div class="fuel-strip-label">
+          <span class="live-dot" aria-hidden="true"></span>
+          <div>
+            <strong data-i18n="home.pricesTitle"></strong>
+            <small><span data-i18n="common.lastUpdated"></span>: <span data-price-updated></span></small>
+          </div>
+        </div>
+        <div class="fuel-strip-list" data-render-sticky-prices></div>
+        <a class="btn btn-primary page-link" href="fuel-prices.html" data-i18n="buttons.viewPrices"></a>
+      </div>
+    </section>
+
+    <section class="hero home-hero">
+      <div class="hero-media" data-bg-image="hero"></div>
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <div class="hero-copy reveal">
+          <img class="hero-logo" data-logo src="assets/sherif-logo.png" alt="SHERIFF OIL logo">
+          <h1 data-i18n="home.heroTitle">Furnizoni udhëtimin tuaj me cilësi dhe besim.</h1>
+          <p class="hero-text" data-i18n="home.heroSubtitle"></p>
+          <div class="hero-actions">
+            <a class="btn btn-primary page-link" href="fuel-prices.html" data-i18n="buttons.viewPrices"></a>
+          <a class="btn btn-light" href="https://www.google.com/maps/dir/?api=1&destination=Zubq%C3%AB%2040650%2C%20Kosovo" data-directions target="_blank" rel="noreferrer" data-i18n="buttons.getDirections"></a>
+            <a class="btn btn-outline page-link" href="contact.html" data-i18n="buttons.contactUs"></a>
+          </div>
+        </div>
+        <aside class="hero-price-panel reveal" aria-label="Fuel prices">
+          <p class="eyebrow eyebrow-light" data-i18n="home.pricesEyebrow"></p>
+        <h2 data-i18n="home.pricesTitle">Çmimet aktuale me një shikim.</h2>
+          <div class="hero-price-list" data-render-hero-prices></div>
+          <a class="btn btn-light page-link" href="fuel-prices.html" data-i18n="buttons.viewPrices"></a>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow" data-i18n="home.servicesEyebrow"></p>
+          <h2 data-i18n="home.servicesTitle">Një ndalesë e plotë, e mbajtur thjeshtë.</h2>
+          <p data-i18n="home.servicesText"></p>
+        </div>
+        <div class="card-grid three" data-render-services data-limit="3"></div>
+      </div>
+    </section>
+
+    <section class="section section-dark">
+      <div class="container">
+        <div class="section-heading section-heading-light reveal">
+          <p class="eyebrow eyebrow-light" data-i18n="home.quickInfoEyebrow"></p>
+          <h2 data-i18n="home.quickInfoTitle">Gjërat kryesore për një ndalesë më të lehtë.</h2>
+        </div>
+        <div class="stat-grid home-stat-grid" data-render-stats></div>
+        <div class="section-actions reveal">
+          <a class="btn btn-light page-link" href="fuel-prices.html" data-i18n="buttons.viewPrices"></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section split-section">
+      <div class="container split-grid">
+        <div class="image-panel reveal">
+          <img data-image-key="road" src="" alt="Open road for travel">
+        </div>
+        <div class="split-copy reveal">
+          <p class="eyebrow" data-i18n="home.locationEyebrow"></p>
+          <h2 data-i18n="home.locationTitle">Gati në rrugën tuaj, ditë e natë.</h2>
+          <p data-i18n="home.locationText"></p>
+          <div class="info-list">
+            <div><span data-icon="pin"></span><strong data-contact="address"></strong></div>
+            <div><span data-icon="clock"></span><strong data-contact="hours"></strong></div>
+          </div>
+          <div class="section-actions">
+          <a class="btn btn-primary" href="https://www.google.com/maps/dir/?api=1&destination=Zubq%C3%AB%2040650%2C%20Kosovo" data-directions target="_blank" rel="noreferrer" data-i18n="buttons.getDirections"></a>
+            <a class="btn btn-secondary page-link" href="location.html" data-i18n="location.eyebrow"></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-band">
+      <div class="container cta-inner reveal">
+        <div>
+          <p class="eyebrow eyebrow-light">SHERIFF OIL</p>
+          <h2 data-i18n="home.ctaTitle">Planifikoni një ndalesë më të lehtë sot.</h2>
+          <p data-i18n="home.ctaText"></p>
+        </div>
+        <a class="btn btn-light page-link" href="contact.html" data-i18n="buttons.contactUs"></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <img class="footer-logo" data-logo src="assets/sherif-logo.png" alt="SHERIFF OIL logo">
+        <p data-i18n="footer.text"></p>
+      </div>
+      <div>
+          <h2 data-i18n="footer.links">Faqet</h2>
+        <nav class="footer-links" data-footer-pages></nav>
+      </div>
+      <div>
+          <h2 data-i18n="footer.services">Shërbimet</h2>
+        <nav class="footer-links" data-footer-services></nav>
+      </div>
+      <div>
+          <h2 data-i18n="footer.contact">Kontakti</h2>
+        <div class="footer-links">
+          <span data-contact="address"></span>
+            <a data-contact="phone" href="tel:044517400"></a>
+            <a data-contact="email" href="mailto:rigondragusha6@gmail.com"></a>
+          <span data-contact="hours"></span>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© <span data-current-year></span> SHERIFF OIL. <span data-i18n="footer.rights"></span></p>
+    </div>
+  </footer>
+</body>
+</html>

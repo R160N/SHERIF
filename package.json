@@ -1,0 +1,11 @@
+{
+  "name": "sheriff-oil-website",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@netlify/blobs": "^9.1.2"
+  }
+}

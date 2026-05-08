@@ -1,0 +1,53 @@
+[build]
+  publish = "."
+
+[functions]
+  directory = "netlify/functions"
+
+[[redirects]]
+  from = "/api/content"
+  to = "/.netlify/functions/content"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/api/fuel-prices"
+  to = "/.netlify/functions/fuel-prices"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/api/contact-messages"
+  to = "/.netlify/functions/contact-messages"
+  status = 200
+  force = true
+
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "no-store, no-cache, must-revalidate"
+
+[[headers]]
+  for = "/script.js"
+  [headers.values]
+    Cache-Control = "no-cache, must-revalidate"
+
+[[headers]]
+  for = "/admin.js"
+  [headers.values]
+    Cache-Control = "no-cache, must-revalidate"
+
+[[headers]]
+  for = "/data/site-data.js"
+  [headers.values]
+    Cache-Control = "no-cache, must-revalidate"
+
+[[headers]]
+  for = "/styles.css"
+  [headers.values]
+    Cache-Control = "no-cache, must-revalidate"
+
+[[redirects]]
+  from = "/admin"
+  to = "/admin/"
+  status = 301
